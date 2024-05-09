@@ -1,5 +1,5 @@
 import pandas as pd
-import plotly as pt
+import matplotlib.pyplot as plt
 
 kaz2014_f = pd.read_excel('kaz2014.xlsx')
 kaz2015_f = pd.read_excel('kaz2015.xlsx')
