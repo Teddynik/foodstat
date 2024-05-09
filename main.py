@@ -1,25 +1,25 @@
 import pandas as pd
 import plotly as pt
 
-kaz2014_f = pd.read_excel('/content/Kazakhstan/kaz2014.xlsx')
-kaz2015_f = pd.read_excel('/content/Kazakhstan/kaz2015.xlsx')
-kaz2016_f = pd.read_excel('/content/Kazakhstan/kaz2016.xlsx')
-kaz2017_f = pd.read_excel('/content/Kazakhstan/kaz2017.xlsx')
+kaz2014_f = pd.read_excel('kaz2014.xlsx')
+kaz2015_f = pd.read_excel('kaz2015.xlsx')
+kaz2016_f = pd.read_excel('kaz2016.xlsx')
+kaz2017_f = pd.read_excel('kaz2017.xlsx')
 
-uzb2014_f = pd.read_excel('/content/Uzbekistan/uzb2014.xlsx')
-uzb2015_f = pd.read_excel('/content/Uzbekistan/uzb2015.xlsx')
-uzb2016_f = pd.read_excel('/content/Uzbekistan/uzb2016.xlsx')
-uzb2017_f = pd.read_excel('/content/Uzbekistan/uzb2017.xlsx')
+uzb2014_f = pd.read_excel('uzb2014.xlsx')
+uzb2015_f = pd.read_excel('uzb2015.xlsx')
+uzb2016_f = pd.read_excel('uzb2016.xlsx')
+uzb2017_f = pd.read_excel('uzb2017.xlsx')
 
-tjk2014_f = pd.read_excel('/content/Tajikistan/tjk2014.xlsx')
-tjk2015_f = pd.read_excel('/content/Tajikistan/tjk2015.xlsx')
-tjk2016_f = pd.read_excel('/content/Tajikistan/tjk2016.xlsx')
-tjk2017_f = pd.read_excel('/content/Tajikistan/tjk2017.xlsx')
+tjk2014_f = pd.read_excel('tjk2014.xlsx')
+tjk2015_f = pd.read_excel('tjk2015.xlsx')
+tjk2016_f = pd.read_excel('tjk2016.xlsx')
+tjk2017_f = pd.read_excel('tjk2017.xlsx')
 
-kgz2014_f = pd.read_excel('/content/Kyrgyzstan/kgz2014.xlsx')
-kgz2015_f = pd.read_excel('/content/Kyrgyzstan/kgz2015.xlsx')
-kgz2016_f = pd.read_excel('/content/Kyrgyzstan/kgz2016.xlsx')
-kgz2017_f = pd.read_excel('/content/Kyrgyzstan/kgz2017.xlsx')
+kgz2014_f = pd.read_excel('kgz2014.xlsx')
+kgz2015_f = pd.read_excel('kgz2015.xlsx')
+kgz2016_f = pd.read_excel('kgz2016.xlsx')
+kgz2017_f = pd.read_excel('kgz2017.xlsx')
 
 kaz2014 =(kaz2014_f['Prob_Mod_Sev'] * kaz2014_f['wt']).sum() / kaz2014_f['wt'].sum()
 kaz2015 =(kaz2015_f['Prob_Mod_Sev'] * kaz2015_f['wt']).sum() / kaz2015_f['wt'].sum()
